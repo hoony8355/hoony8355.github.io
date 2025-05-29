@@ -10,25 +10,36 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
+      justify-content: flex-start;
       min-height: 100vh;
       margin: 0;
+      padding: 2rem 1rem;
       background-color: #f5f5f5;
       color: #333;
     }
+
     h1 {
       font-size: 2rem;
       margin-bottom: 0.5rem;
+      text-align: center;
     }
+
     p {
       font-size: 1.1rem;
-      margin-bottom: 2rem;
+      margin-bottom: 1.5rem;
       color: #666;
+      text-align: center;
+      max-width: 600px;
     }
+
+    .project {
+      margin: 2.5rem 0;
+      text-align: center;
+    }
+
     .button {
       display: inline-block;
-      padding: 12px 24px;
-      margin: 10px;
+      padding: 10px 20px;
       font-size: 1rem;
       font-weight: bold;
       color: white;
@@ -38,24 +49,42 @@
       text-decoration: none;
       transition: background-color 0.3s;
     }
+
     .button:hover {
       background-color: #005f99;
     }
+
     footer {
-      margin-top: 40px;
+      margin-top: 60px;
       font-size: 0.9rem;
       color: #aaa;
     }
   </style>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8240152082486968"
      crossorigin="anonymous"></script>
-    <meta name="naver-site-verification" content="a4f0c6db7970cfb8b26027fba9aca4375471cb77" />
+  <meta name="naver-site-verification" content="a4f0c6db7970cfb8b26027fba9aca4375471cb77" />
 </head>
 <body>
   <h1>👋 hoony8355의 사이드 프로젝트</h1>
   <p>마케터이지만 개발 공부를 하고 있습니다.<br>지금은 하나뿐이지만, 앞으로 하나씩 더해볼게요.</p>
 
-  <a class="button" href="https://hoony8355.github.io/knight-tour-ko/" target="_blank">🧩 기사의 여행 체험하기</a>
+  <div class="project">
+    <h2>🧩 기사의 여행</h2>
+    <p>넷플릭스 '데블스 플랜 시즌2'에 등장한 퍼즐을 기반으로 만든 체스 퍼즐 게임입니다.</p>
+    <a class="button" href="https://hoony8355.github.io/knight-tour-ko/" target="_blank">체험하러 가기 →</a>
+  </div>
+
+  <div class="project">
+    <h2>🔗 링킨 이미지</h2>
+    <p>정적인 포스터 이미지 위에 원하는 위치에 링크를 삽입할 수 있는 HTML 코드 생성기입니다.</p>
+    <a class="button" href="https://hoony8355.github.io/linkinimage/" target="_blank">링킨이미지 사용하기 →</a>
+  </div>
+
+  <div class="project">
+    <h2>✂️ 링킨 이미지 CUT</h2>
+    <p>긴 포스터를 여러 장의 이미지로 자른 뒤, 각각에 링크를 삽입할 수 있도록 자동 코드까지 생성해주는 툴입니다.<br>특히 뉴스레터에서 이미지 맵이 작동하지 않을 때 유용해요.</p>
+    <a class="button" href="https://hoony8355.github.io/linkinimage/cut/" target="_blank">CUT 사용하러 가기 →</a>
+  </div>
 
   <footer>© 2025 hoony8355</footer>
 </body>
