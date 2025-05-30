@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- 기사 퍼즐 게임 메인 -->
+  <url>
+    <loc>https://hoony8355.github.io/knight-tour-ko/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- 기사 퍼즐 커스텀 빌더 -->
+  <url>
+    <loc>https://hoony8355.github.io/knight-tour-ko/builder</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 기사 퍼즐 게시판 -->
+  <url>
+    <loc>https://hoony8355.github.io/knight-tour-ko/board</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 기사 퍼즐 다국어 버전 -->
+  <url>
+    <loc>https://hoony8355.github.io/knight-tour-ko/en/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hoony8355.github.io/knight-tour-ko/en/" />
+  </url>
+  <url>
+    <loc>https://hoony8355.github.io/knight-tour-ko/ja/</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hoony8355.github.io/knight-tour-ko/ja/" />
+  </url>
+  <url>
+    <loc>https://hoony8355.github.io/knight-tour-ko/es/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hoony8355.github.io/knight-tour-ko/es/" />
+  </url>
+  <url>
+    <loc>https://hoony8355.github.io/knight-tour-ko/zh-CN/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hoony8355.github.io/knight-tour-ko/zh-CN/" />
+  </url>
+
+  <!-- 링킨 이미지 생성기 -->
+  <url>
+    <loc>https://hoony8355.github.io/linkinimage/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- 링킨 이미지 cut 버전 -->
+  <url>
+    <loc>https://hoony8355.github.io/linkinimage/cut</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- 점심메뉴 추천 프로젝트 -->
+  <url>
+    <loc>https://hoony8355.github.io/jummechu/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>
